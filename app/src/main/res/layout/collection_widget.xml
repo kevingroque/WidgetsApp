@@ -62,11 +62,11 @@
             android:background="#aaa" />
 
         <ListView
-            android:id="@+id/widgetListView"
+            android:id="@+id/widget_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:dividerHeight="1dp"
-            android:divider="#eeeeee"
+            android:dividerHeight="2dp"
+            android:divider="@color/colorAccent"
             tools:listitem="@layout/item_evento"></ListView>
     </LinearLayout>
 

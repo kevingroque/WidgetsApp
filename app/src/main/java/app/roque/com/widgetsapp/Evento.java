@@ -11,6 +11,9 @@ public class Evento {
     private String nombre;
     private String mensaje;
 
+    public Evento(Integer integer, String s, String s1, String s2) {
+    }
+
     public Integer getId() {
         return id;
     }
